@@ -1,0 +1,27 @@
+body{
+    background-color: slategray;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.titulo{
+    font-family: 'Kalam', cursive;
+    font-size: 350%;
+}
+.boton{
+    font-size: 100%;
+    font-family: 'Kalam', cursive;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 50%;
+}
