@@ -1,0 +1,40 @@
+body{
+    background-color: slategray;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -111px;
+
+}
+.titulo{
+    font-family: 'Kalam', cursive;
+    font-size: 250%;
+}
+p{
+    font-size: 600%;
+    font-family: 'Kalam', cursive;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 50%;
+    width: 130px;
+    height: 158px;
+    text-align: center;
+}
+
+button{
+    color: antiquewhite;
+    font-size: 150%;
+    background-color: slategray;
+    border-color: black;
+    margin-top: -46px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: slategray;
+}
+
+.contenedor-navbar{
+    display: flex;
+    width: 98%;
+    justify-content: flex-end;
+}
+.navbar{
+    position: fixed;
+    list-style-type: none;
+    margin: 9px;
+    padding: 7px;
+    overflow: hidden;
+    background-color:rgb(8, 8, 8);
+    color:rgb(245, 243, 243);
+    font-size: 200%;
+}
+.stylenav{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+  }
+  .subnav {
+    float: left;
+  }
